@@ -1,0 +1,34 @@
+# Para mostrar una lista de los paquetes instalados y sus versiones, usaremos los siguientes comandos:
+# Con pip:
+pip freeze
+
+# Con conda:
+conda list
+
+# Para mostrar los metadatos del paquete numpy, se pueden utilizar los siguientes comandos:
+# Con pip:
+pip show numpy
+
+# Con conda:
+conda search numpy
+
+# Para eliminar el paquete numpy, se pueden utilizar los siguientes comandos:
+# Con pip:
+pip uninstall numpy
+
+# Con conda:
+conda remove numpy
+
+# Para reinstalar el paquet enumpy, se utilizara los siguientes comandos:
+# Con pip:
+pip install numpy
+
+# Con conda:
+conda install numpy
+
+# Para congelar nuestros paquetes python y sus versiones en un archivo requirements.txt, se hara de la siguiente forma:
+# Con pip:
+pip freeze > requirements.txt
+
+# Con conda:
+conda list --export > requirements.txt
